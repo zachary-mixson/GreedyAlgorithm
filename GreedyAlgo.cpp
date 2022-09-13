@@ -10,11 +10,11 @@ int main()
 {
     double ammount[5] = {1.00, 0.25, 0.10, 0.05, 0.01};
     double total[5] = {0, 0, 0, 0, 0};
-    double dollerAmmount;
+    double dollarAmmount;
 
-    std::cin >> dollerAmmount;
+    std::cin >> dollarAmmount;
 
-    changeNeeded(ammount, total, dollerAmmount);
+    changeNeeded(ammount, total, dollarAmmount);
 
     std::cout << "Dollars: " << total[0] << "\n";
     std::cout << "quarters: " << total[1] << "\n";
